@@ -12,4 +12,8 @@ Route::get('/', function () {
  
 Route::get('/loginalumnos', function () {
     return view('loginess/loginalumnos');
-});
+})->name('loginalumnos');
+
+Route::get('/loginadmin', function () {
+    return view('loginess/loginadmin');
+})->name('loginadmin');

@@ -28,7 +28,10 @@
 
     <div class="central-button-container">   
     
+        <a href="{{route('loginalumnos')}}">
         <button class="custom-btn btn-1"><span>Ingresa Aqui!</span><span>¿Eres Alumno?</span></button>
+        </a>
+        
         <button class="custom-btn btn-2"><span>Ingresa Aqui!</span><span>¿Eres Administrativo?</span></button>
     </div>
     
