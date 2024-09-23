@@ -10,3 +10,6 @@ Route::get('/', function () {
     return view('loginess/loginask');
 });
  
+Route::get('/loginalumnos', function () {
+    return view('loginess/loginalumnos');
+});

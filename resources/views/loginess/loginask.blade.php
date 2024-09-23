@@ -26,10 +26,10 @@
         </div>
     </header>
 
-    <div class="aling:Center">   
+    <div class="central-button-container">   
     
-        <button class="custom-btn btn-1"><span>Click!</span><span>Read More</span></button>
-        <button class="custom-btn btn-2"><span>Click!</span><span>Read More</span></button>
+        <button class="custom-btn btn-1"><span>Ingresa Aqui!</span><span>¿Eres Alumno?</span></button>
+        <button class="custom-btn btn-2"><span>Ingresa Aqui!</span><span>¿Eres Administrativo?</span></button>
     </div>
     
 
