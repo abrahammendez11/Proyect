@@ -44,5 +44,4 @@ document.querySelector('.cont_form_sign_up').style.display = "none";
 document.querySelector('.cont_form_login').style.display = "none";
 },time_to_hidden_all);  
   
-  }
- 
+}

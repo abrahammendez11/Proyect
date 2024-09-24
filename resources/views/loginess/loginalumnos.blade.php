@@ -10,12 +10,11 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="{{ asset('css/colors.css') }}">
-    <!-- <link rel="stylesheet" href="{{ asset('css/auth.css') }}"> -->
+    {{-- <!-- <link rel="stylesheet" href="{{ asset('css/auth.css') }}"> --> --}}
     <link rel="stylesheet" href="{{ asset('css/master.css') }}">
     <link rel="shortcut icon" href="{{ asset('images/favicon.ico') }}" type="image/x-icon">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="{{ asset('css/buttons.css') }}">
     <link rel="stylesheet" href="{{ asset('css/login.css') }}">
+    <script src="{{ asset('js/edit/login.js') }}"></script>
 
     <title>Inicio de sesion Alumnos</title>
 
@@ -23,7 +22,17 @@
 </head>
 <body>
 
-    <script src="/js/login.js"></script>
+ 
+  
+
+  {{-- <header class="header">
+    <div class="header__background"></div>
+    <div class="header__title">
+        <img src="{{asset("images/COSSIES_logo-light.png")}}" alt="" class="responsive-img">
+   {{--      <h1>COSSIES</h1>
+        <p>COORDINACIÓN DE SERVICIO SOCIAL DE INSTITUCIONES DE EDUCACIÓN SUPERIOR</p>
+    </div>
+{{-- </h{{-- eader> --}} 
 
     <div class="cotn_principal">
         <div class="cont_centrar">
@@ -59,10 +68,10 @@
                <img src="https://images.unsplash.com/42/U7Fc1sy5SCUDIu4tlJY3_NY_by_PhilippHenzler_philmotion.de.jpg?ixlib=rb-0.3.5&q=50&fm=jpg&crop=entropy&s=7686972873678f32efaf2cd79671673d" alt="" />
                </div>
          <div class="cont_form_login">
-        <a href="#" onclick="hidden_login_and_sign_up()" ><i class="material-icons">&#xE5C4;</i></a>
+        <a href="#" onclick="hidden_login_and_sign_up()" >&#xE5C4;</a>
            <h2>Iniciar Sesion</h2>
-         <input type="text" placeholder="Email" />
-        <input type="password" placeholder="Password" />
+         <input type="text" placeholder="Correo Electronico" />
+        <input type="password" placeholder="Contraeña" />
         <button class="btn_login" onclick="change_to_login()">Iniciar Sesion</button>
           </div>
           

@@ -17,3 +17,7 @@ Route::get('/loginalumnos', function () {
 Route::get('/loginadmin', function () {
     return view('loginess/loginadmin');
 })->name('loginadmin');
+
+Route::get('/navegacion', function () {
+    return view('menu/navigate');
+})->name('navegation');
