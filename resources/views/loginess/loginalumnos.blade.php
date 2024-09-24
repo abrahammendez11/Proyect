@@ -76,12 +76,20 @@
           </div>
           
            <div class="cont_form_sign_up">
-        <a href="#" onclick="hidden_login_and_sign_up()"><i class="material-icons">&#xE5C4;</i></a>
+        <a href="#" onclick="hidden_login_and_sign_up()"></a>
              <h2>Registrarse</h2>
-        <input type="text" placeholder="Email" />
-        <input type="text" placeholder="User" />
-        <input type="password" placeholder="Password" />
-        <input type="password" placeholder="Confirm Password" />
+        <input type="text" placeholder="Correo Electronico" />
+        <input type="text" placeholder="Nombre Completo" />
+        <input type="password" placeholder="Contraseña" />
+        <input type="password" placeholder="Confirmar Contraseña" />
+        {{-- <input type="text" placeholder="Credencial" />
+        <input type="text" placeholder="Direccion" />
+        <input type="text" placeholder="Escuela" />
+        <input type="text" placeholder="Carrera" />
+        <input type="text" placeholder="Grado" />
+        <input type="text" placeholder="Numero de Telefono" />
+        <input type="date" placeholder="Fecha de Ingreso" /> --}}
+
         <button class="btn_sign_up" onclick="change_to_sign_up()">Registrarse</button>
         
           </div>
