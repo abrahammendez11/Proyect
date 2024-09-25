@@ -68,7 +68,7 @@
                <img src="https://images.unsplash.com/42/U7Fc1sy5SCUDIu4tlJY3_NY_by_PhilippHenzler_philmotion.de.jpg?ixlib=rb-0.3.5&q=50&fm=jpg&crop=entropy&s=7686972873678f32efaf2cd79671673d" alt="" />
                </div>
          <div class="cont_form_login">
-        <a href="#" onclick="hidden_login_and_sign_up()" >&#xE5C4;</a>
+        <a href="#" onclick="hidden_login_and_sign_up()" ></a>
            <h2>Iniciar Sesion</h2>
          <input type="text" placeholder="Correo Electronico" />
         <input type="password" placeholder="Contraeña" />
