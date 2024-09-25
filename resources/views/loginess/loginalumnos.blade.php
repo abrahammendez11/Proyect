@@ -25,14 +25,14 @@
  
   
 
-  {{-- <header class="header">
+  <header class="header">
     <div class="header__background"></div>
     <div class="header__title">
         <img src="{{asset("images/COSSIES_logo-light.png")}}" alt="" class="responsive-img">
    {{--      <h1>COSSIES</h1>
         <p>COORDINACIÓN DE SERVICIO SOCIAL DE INSTITUCIONES DE EDUCACIÓN SUPERIOR</p>
-    </div>
-{{-- </h{{-- eader> --}} 
+   --}}  </div>
+  </header>
 
     <div class="cotn_principal">
         <div class="cont_centrar">
