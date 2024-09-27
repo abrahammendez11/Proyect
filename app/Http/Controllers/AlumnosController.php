@@ -8,7 +8,7 @@ use Illuminate\Http\Request;
 
 class AlumnosController extends Controller
 {
-    public function store(Request $request)
+    public function show(Request $request)
     {
         $validateData = $request->validate
         ([

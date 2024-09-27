@@ -41,13 +41,13 @@
         <div class="cont_info_log_sign_up">
               <div class="col_md_login">
         <div class="cont_ba_opcitiy">
-                
+       {{--  <img src="{{asset("images/COSSIES_logo.png")}}" alt="" class=""> --}}
                 <h2>Alumnos</h2>  
           <p>Si ya tienes una Cuenta inicia sesion aqui</p> 
           <button class="btn_login" onclick="change_to_login()">Iniciar Sesion</button>
           </div>
           </div>
-        <div class="col_md_sign_up">
+        <div class="col_md_sign_up"> 
         <div class="cont_ba_opcitiy">
           <h2>Registro</h2>
           <p>Si aun no tienes una cuenta, registrate aqui.</p>
@@ -58,14 +58,15 @@
         
             
             <div class="cont_back_info">
-               <div class="cont_img_back_grey">
-               <img src="https://images.unsplash.com/42/U7Fc1sy5SCUDIu4tlJY3_NY_by_PhilippHenzler_philmotion.de.jpg?ixlib=rb-0.3.5&q=50&fm=jpg&crop=entropy&s=7686972873678f32efaf2cd79671673d" alt="" />
+              
+               <div class="cont_img_back_">
+               <img src="{{asset("images/patternColor.jpg")}}" alt="" />
                </div>
                
             </div>
         <div class="cont_forms" >
             <div class="cont_img_back_">
-               <img src="https://images.unsplash.com/42/U7Fc1sy5SCUDIu4tlJY3_NY_by_PhilippHenzler_philmotion.de.jpg?ixlib=rb-0.3.5&q=50&fm=jpg&crop=entropy&s=7686972873678f32efaf2cd79671673d" alt="" />
+               <img src="{{asset("images/patternColor.jpg")}}" alt="" />
                </div>
          <div class="cont_form_login">
         <a href="#" onclick="hidden_login_and_sign_up()" ></a>
@@ -100,5 +101,6 @@
          </div>
         </div>
     
+      </header>
 </body>
 </html>
